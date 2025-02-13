@@ -54,7 +54,7 @@ begin
     port map(
         A     => A(2),
         B     => B(2),
-        Cin   => w_carry(0),
+        Cin   => w_carry(1),
         S     => S(2),
         Cout  => w_carry(2)
     );
@@ -63,7 +63,7 @@ begin
     port map(
         A     => A(3),
         B     => B(3),
-        Cin   => w_carry(0),
+        Cin   => w_carry(2),
         S     => S(3),
         Cout  => Cout
     );
